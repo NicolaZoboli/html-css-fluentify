@@ -20,7 +20,7 @@ header {
 header #introduction {
   background-color: #084177;
   color: white;
-  padding-top: 50px;
+  padding-top: 30px;
   position: relative;
   /* debug  */
   height: 80%;
@@ -75,6 +75,7 @@ div #interact {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  border-bottom: 1px solid lightgrey;
 }
 
 .steps {
@@ -92,4 +93,26 @@ div #interact {
 .steps img {
   height: 150px;
 
+}
+
+#piano {
+  width: 70%;
+  margin: 30px auto;
+  text-align: center;
+
+}
+
+#piano img, #piano .scopri {
+  display: inline-block;
+  width: 40%;
+  margin: 20px;
+}
+
+#piano .scopri {
+  text-align: left;
+  padding: 40px;
+}
+
+#piano .scopri p {
+  margin: 20px 0;
 }
