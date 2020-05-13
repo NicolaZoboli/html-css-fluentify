@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.padding {
+  padding: 0 10%;
+}
+
+header #introduction {
+  background-color: #084177;
+  color: white;
+  padding-top: 50px;
+  position: relative;
+  /* debug  */
+  height: 80vh;
+}
+
+nav #logo {
+  width: 10%;
+}
+
+nav #logo, nav ul, nav ul li, nav #interact, nav #interact span, nav #interact button {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+nav ul {
+  width: 58%;
+  text-align: center;
+}
+
+div #interact {
+  width: 30%;
+  text-align: right;
+}
+
+#twomen {
+  position: absolute;
+  right: -4%;
+  bottom: 0;
+  width: 65%;
+}
+
+#secondTitle {
+  position: absolute;
+  line-height: 1.5;
+  top: 50%;
+  left: 10%;
+}
+
+#comparing {
+  height: 100px;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 30px 0;
+}
