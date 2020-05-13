@@ -116,3 +116,36 @@ div #interact {
 #piano .scopri p {
   margin: 20px 0;
 }
+
+#strutturaPiano {
+  background-color: lightgrey;
+  height: 150px;
+  position: relative;
+}
+
+#containerPiano {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#strutturaPiano h3, #strutturaPiano .sono, #strutturaPiano .visualizzaPiano {
+  display: inline-block;
+}
+
+#strutturaPiano h3 {
+  width: 30%;
+  text-align: right;
+}
+
+#strutturaPiano .sono {
+  width: 35%;
+  text-align: right;
+}
+
+#strutturaPiano .visualizzaPiano {
+  width: 30%;
+  text-align: center;
+}
